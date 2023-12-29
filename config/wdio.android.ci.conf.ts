@@ -22,7 +22,7 @@ config.capabilities = [
       networkLogs: true,
       debug: false,
       deviceName: "Google Pixel 3a",
-      osVersion: "14.0",
+      osVersion: "9.0",
     },
   },
 ];
