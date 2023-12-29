@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@wdio/appium-service": "^8.27.0",
+    "@wdio/cli": "^8.27.1",
+    "@wdio/local-runner": "^8.27.0",
+    "@wdio/mocha-framework": "^8.27.0",
+    "@wdio/spec-reporter": "^8.27.0",
+    "appium-uiautomator2-driver": "^2.36.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "android.app": "wdio config/wdio.android.local.conf.ts",
+    "android.ci": "wdio config/wdio.android.ci.conf.ts",
+    "test1": "wdio config/wdio.android.local.conf.ts --spec test/specs/forms/1_input_field_func.spec.ts",
+    "test2": "wdio config/wdio.android.local.conf.ts --spec test/specs/forms/2_switch_func.spec.ts",
+    "test3": "wdio config/wdio.android.local.conf.ts --spec test/specs/forms/3_dropdownMenu_func.spec.ts",
+    "test4": "wdio config/wdio.android.local.conf.ts --spec test/specs/forms/4_buttons_func.spec.ts",
+    "test5": "wdio config/wdio.android.local.conf.ts --spec test/specs/LoginSignUp/5_signUp.spec.ts"
+  }
+}
