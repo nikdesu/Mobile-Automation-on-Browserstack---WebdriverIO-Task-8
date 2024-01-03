@@ -13,8 +13,10 @@
     "wdio-spec-reporter": "^0.1.5"
   },
   "scripts": {
-    "android.app": "wdio config/wdio.android.local.conf.ts",
-    "android.ci": "wdio config/wdio.android.ci.conf.ts",
+    "pixel3a.app": "wdio config/wdio.pixel3a.local.conf.ts",
+    "pixel7pro.app": "wdio config/wdio.pixel7pro.local.conf.ts",
+    "pixel3a.ci": "wdio config/wdio.pixel3a.ci.conf.ts",
+    "pixel7pro.ci": "wdio config/wdio.pixel7pro.ci.conf.ts",
     "test1": "wdio config/wdio.android.local.conf.ts --spec test/specs/forms/1_input_field_func.spec.ts",
     "test2": "wdio config/wdio.android.local.conf.ts --spec test/specs/forms/2_switch_func.spec.ts",
     "test3": "wdio config/wdio.android.local.conf.ts --spec test/specs/forms/3_dropdownMenu_func.spec.ts",

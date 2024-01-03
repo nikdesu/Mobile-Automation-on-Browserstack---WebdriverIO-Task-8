@@ -14,7 +14,6 @@ export const config: Options.Testrunner = {
     },
   },
 
-  port: 4723,
   //
   // ==================
   // Specify Test Files
