@@ -21,6 +21,12 @@ jobs:
         
       - name: Run tests on Pixel 3a
         run: npm run pixel3a.ci
+        env:
+          USER: ${{ secrets.SECRET_USER }}
+          KEY: ${{ secrets.SECRET_KEY }}
 
       - name: Run tests on Pixel 7 Pro
         run: npm run pixel7pro.ci
+        env:
+          USER: ${{ secrets.SECRET_USER }}
+          KEY: ${{ secrets.SECRET_KEY }}
