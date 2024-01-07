@@ -18,7 +18,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        
+      - name: Run tests on Pixel 3a
+        run: npm run pixel3a.ci
 
-      - name: Run tests
-        continue-on-error: true
-        run: npm wdio config/wdio.pixel7pro.ci.conf.ts
+      - name: Run tests on Pixel 7 Pro
+        run: npm run pixel7pro.ci
